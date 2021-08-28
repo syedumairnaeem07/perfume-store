@@ -1,0 +1,19 @@
+.home {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+.home > img {
+	margin: 10px;
+	/* max-width: 100em; */
+	width: 100em;
+	height: 40em;
+}
+
+.home > h1 {
+	color: white;
+	letter-spacing: 5px;
+}
